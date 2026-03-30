@@ -1,0 +1,23 @@
+name: Tests
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: '8.0.x'
+
+      # Building requires Valheim game assemblies which are not available on CI runners.
+      # Restore verifies the project file and NuGet dependencies are valid.
+      - name: Restore
+        run: dotnet restore HearthFix.csproj

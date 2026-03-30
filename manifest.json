@@ -1,0 +1,7 @@
+{
+  "name": "HearthFix",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/stephen-cherry/hearthfix",
+  "description": "Fixes newly placed fireplaces and wisp torches not lighting when NoSmokeSimplified or NoSmokeStayLit is installed.",
+  "dependencies": []
+}
