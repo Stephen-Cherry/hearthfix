@@ -1,3 +1,4 @@
+global using System;
 global using System.Reflection;
 global using BepInEx;
 global using BepInEx.Logging;

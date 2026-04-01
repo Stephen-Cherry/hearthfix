@@ -4,7 +4,7 @@
     <AssemblyName>Narolith.HearthFix</AssemblyName>
     <Title>Hearth Fix</Title>
     <Description>Fixes newly placed fireplaces and wisp torches not lighting when NoSmokeSimplified is installed</Description>
-    <Version>1.0.0</Version>
+    <Version>1.1.0</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>preview</LangVersion>
     <Nullable>enable</Nullable>
